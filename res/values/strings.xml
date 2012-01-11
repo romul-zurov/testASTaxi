@@ -5,5 +5,6 @@
     <string name="tip_for_driver">Просто нажмите Start, затем Stop</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
+    <string name="version">0.0.2</string>
 
 </resources>
