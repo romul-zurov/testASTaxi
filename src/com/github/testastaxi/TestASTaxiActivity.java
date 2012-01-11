@@ -17,7 +17,7 @@ public class TestASTaxiActivity extends Activity {
 		text = (EditText) findViewById(R.id.editText1);
 	}
 
-	public void startClick(View view) {
+	public void startStopClick(View view) {
 		switch (view.getId()) {
 		case R.id.button_start:
 			text.setText(R.string.version);
