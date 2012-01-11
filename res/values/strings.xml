@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Вызов АС-Такси</string>
+    <string name="tip_for_driver">Просто нажмите Start, затем Stop</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+</resources>
