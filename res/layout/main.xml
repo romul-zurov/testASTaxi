@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/tip_for_driver" />
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/tip_for_driver" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+	<EditText
+		android:id="@+id/edtxtStartLocation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
 
-        <requestFocus />
-    </EditText>
+	<EditText
+		android:id="@+id/edtxtStopLocation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/button_start"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="startStopClick"
-        android:text="@string/start" />
+	<EditText
+		android:id="@+id/edtxtDistance"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
 
-    <Button
-        android:id="@+id/button_stop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="startStopClick"
-        android:text="@string/stop" />
+		<requestFocus />
+	</EditText>
+
+	<Button
+		android:id="@+id/button_start"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="startStopClick"
+		android:text="@string/start" />
+
+	<Button
+		android:id="@+id/button_stop"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:onClick="startStopClick"
+		android:text="@string/stop" />
 
 </LinearLayout>
